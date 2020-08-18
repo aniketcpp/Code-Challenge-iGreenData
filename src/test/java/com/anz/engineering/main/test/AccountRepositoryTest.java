@@ -21,8 +21,6 @@ public class AccountRepositoryTest {
 	@Autowired
 	private AccountRepository accountRepository;
 
-	@Autowired
-	private AccountTransactionRepository accountTransactionRepository;
 	@Test
 	public void testSearchOneAccountWithId() {
 		// Id 1000002 
